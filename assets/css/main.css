@@ -1,0 +1,110 @@
+html{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+/* body{ 
+    background-color: #000000 !important;
+    color: #ffffff !important;
+} */
+
+
+
+
+@media screen and (max-width: 767px){
+
+    .bg-dark {
+        background-color: #ffe8d0 !important;
+    }
+    .navbar-dark {
+        background-color: #ffe8d0 !important;
+    }
+
+}
+
+
+#preloader {
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+  }
+  
+  .status {
+    background: url(../image/preloader.gif);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -140px;
+    margin-top: -117px;
+  }
+
+  /* carousel */
+  .item img{
+    width: 100% !important;;
+    height: 600px !important;
+}
+
+.item .in-obj{
+    top: 50% !important;
+    left: 50% !important; 
+    position: absolute !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+}
+
+.item .in-obj h2{
+    color: #000000 !important;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+.item .in-obj p{
+    color: #000000 !important;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: century gothic;
+}
+
+.item .in-obj button{
+    color: #ffffff !important;
+    padding: 10px 15px !important;
+    font-weight: bold;
+    background-color: #E13B63 !important;
+    outline: none;
+    border: 0;
+}
+  /* end of carousel */
+
+
+
+  /* grid display */
+
+  .margin-top{
+      margin-top: 60px !important;
+  }
+
+  .def-col{
+      color: #ffffff !important;
+  }
+
+  .margin-top2{
+    margin-top: 30px !important;
+}
+
+.b_shadow{
+    /* background-color: rgba(0, 0, 0, 0.06); */
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.06);
+    padding: 2em;
+}
+
+#about, #products, #contact{
+    transition: 4.5s ease-in-out !important;
+    transition-delay: 4.5s ease-in-out !important;
+}
