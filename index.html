@@ -14,13 +14,7 @@
 </head>
 <body> 
 
-    <!-- Preloader starts -->
-    <!-- <div id="preloader" class="preloader">
-      <div class="status"></div>
-    </div> -->
-    <!-- Preloader ends -->
-
-    <header id="home">
+      <header id="home">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 fixed-top mr-auto scrolling-navbar">
           <a href="#" class="navbar-brand">FlowersHouse</a>
 
@@ -62,7 +56,7 @@
         <div class="in-obj">
         <h2>SPRING</h2>
         <p>Collection</p>
-        <a class="btn btn-primary btn-lg" href="#">Contact Us</a>
+        <a class="btn btn-info btn-lg" href="#contact">Contact Us</a>
               </div>
       </div>
   </div>
@@ -106,19 +100,51 @@
   
 
      <!-- End of About Section -->
-
-
-      
+  
 
  <!-- Display Call button Section -->
 
 
-          <section class="mt-5">
+          <section class="mt-5 container">
             <main role="main" class="conta">
-                <div class="jumbotron text-center">
+                <div class=" text-center">
                   <h1>We Provide More</h1>
                   <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos excepturi nam, error, quasi eos vero voluptas nesciunt cum ipsum tempore sint alias quidem enim!</p>
-                  <a class="btn btn-primary btn-lg" href="#">Contact Us</a>
+                  
+                  
+                  <div class="container">
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Read More</button>
+                  
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                      <div class="modal-dialog">
+                      
+                        <!-- Modal content-->
+                        <div class="modal-content text-center modalHeader">
+                          <div class="modal-header text-center">
+                          
+                            <h4 class="modal-title font-weight-bold text-center ">We Provide More</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos excepturi nam, error, quasi eos vero voluptas nesciunt cum ipsum tempore sint alias quidem enim!.</p>
+                  
+                  <p>
+                  Quas quos excepturi nam, error, quasi eos vero voluptas nesciunt cum ipsum tempore sint alias quidem enim! Quas quos excepturi nam, error, quasi eos vero voluptas nesciunt cum ipsum tempore sint alias quidem enim! Quas quos excepturi nam, error, quasi eos vero voluptas nesciunt cum ipsum tempore sint alias quidem enim! Quas quos excepturi nam, error, quasi eos vero voluptas nesciunt cum ipsum tempore sint alias quidem enim!
+                  </p>
+                  
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+
+
                 </div>
               </main>
               </section>
@@ -212,7 +238,7 @@
       <div class="text-center col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-down" data-aos-duration="1000">
         <div>
          <video class="img-fluid" controls poster="assets/image/ab1.jpg"> 
-           <source src="#" type="video/mp4">
+           <source src="assets/image/movie.mp4" type="video/mp4">
            Vid</video>
 
          </div>
@@ -250,7 +276,7 @@
 
       <div class="row">
 
-      <form action=""  class="img-fluid form-wrap col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1000">
+      <form action=""  class="img-fluid form-wrap col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1000" onsubmit="myFunc();">
 <fieldset>
   <div>
 <label for=""> Full Name </label>
@@ -258,6 +284,14 @@
 <div>
 <input class="form-control" type="text" name="fname" required>
 </div>
+
+<div class="mt-3 mt-md-3">
+  <label for=""> Email </label>
+  </div>
+
+<div>
+  <input class="form-control" type="email" name="email" required>
+  </div>
 
 <div>
   <label for="" class="mt-3 mt-md-3"> Message </label>
@@ -285,8 +319,6 @@
       </main>
 
     <!-- End of contact -->
-
-
 
 
  <!-- footer section -->
